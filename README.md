@@ -46,7 +46,7 @@ The application must run through a browser
 
 ### Example
 
-* ![Alt text](/public/video/BeeGame_gif.gif?raw=true "Start Game")
+* ![Alt text](/public/video/BeeGame.gif?raw=true "Start Game")
 
 * ![Alt text](/public/images/test_screen/startGame.png?raw=true "Start Game")
 
