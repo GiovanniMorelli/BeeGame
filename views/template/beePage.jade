@@ -1,0 +1,83 @@
+div(layout="row" flex style="border:solid;width:100%")
+  div(flex)
+    p
+      |Queen :
+      span
+        | {{queen}}
+    md-button(ng-click="startGame()" ng-hide="startGameButton" class="md-raised md-primary")
+      | Start Game
+    md-button(ng-click="resetGame()" ng-hide="resetGameButton" class="md-raised md-primary")
+      | Reset Game
+  div(flex)
+    p
+      | Bee Worker 1 :
+      span
+        |{{beeWorker_1}}
+    p
+      | Bee Worker 2 :
+      span
+        | {{beeWorker_2}}
+    p
+      | Bee Worker 3 :
+      span
+        | {{beeWorker_3}}
+    p
+      | Bee Worker 4 :
+      span
+        | {{beeWorker_4}}
+    p
+      | Bee Worker 5 :
+      span
+        | {{beeWorker_5}}
+  div(flex)
+    p
+      | Bee Drone 1 :
+      span
+        | {{beeDrone_1}}
+    p
+      | Bee Drone 2 :
+      span
+        | {{beeDrone_2}}
+    p
+      | Bee Drone 3 :
+      span
+        | {{beeDrone_3}}
+    p
+      | Bee Drone 4 :
+      span
+        | {{beeDrone_4}}
+  div(flex)
+    p
+      | Bee Drone 5 :
+      span
+        | {{beeDrone_5}}
+    p
+      | Bee Drone 6 :
+      span
+        | {{beeDrone_6}}
+    p
+      | Bee Drone 7 :
+      span
+        | {{beeDrone_7}}
+    p
+      | Bee Drone 8 :
+      span
+        | {{beeDrone_8}}
+
+div()
+  div(class='queen cursorBee' id="qeen" ng-click="beeHit('queen')")
+  div(class='beeWorker_1 cursorBee' id="beeWorker_1" ng-click="beeHit('beeWorker_1')")
+  div(class='beeWorker_2 cursorBee' id="beeWorker_2" ng-click="beeHit('beeWorker_2')" )
+  div(class='beeWorker_3 cursorBee' id="beeWorker_3" ng-click="beeHit('beeWorker_3')" )
+  div(class='beeWorker_4 cursorBee' id="beeWorker_4" ng-click="beeHit('beeWorker_4')" )
+  div(class='beeWorker_5 cursorBee' id="beeWorker_5" ng-click="beeHit('beeWorker_5')" )
+
+  div(class='beeDrone_1 cursorBee' id="beeDrone_1" ng-click="beeHit('beeDrone_1')" )
+  div(class='beeDrone_2 cursorBee' id="beeDrone_2" ng-click="beeHit('beeDrone_2')" )
+  div(class='beeDrone_3 cursorBee' id="beeDrone_3" ng-click="beeHit('beeDrone_3')" )
+  div(class='beeDrone_4 cursorBee' id="beeDrone_4" ng-click="beeHit('beeDrone_4')" )
+  div(class='beeDrone_5 cursorBee' id="beeDrone_5" ng-click="beeHit('beeDrone_5')" )
+  div(class='beeDrone_6 cursorBee' id="beeDrone_6" ng-click="beeHit('beeDrone_6')" )
+  div(class='beeDrone_7 cursorBee' id="beeDrone_7" ng-click="beeHit('beeDrone_7')" )
+  div(class='beeDrone_8 cursorBee' id="beeDrone_8" ng-click="beeHit('beeDrone_8')" )
+  div(class='beehive')

@@ -1,0 +1,207 @@
+.cursorBee{
+  cursor: pointer;
+}
+
+div.queen {
+  width: 150px;
+  height:150px;
+  top:270px;
+  background-size: 100px 100px;
+  background-repeat:  no-repeat;
+  background-image: url("../images/ape-regina.png");
+  position:fixed;
+
+}
+
+.bee_queen_dead {
+  width: 150px;
+  height:150px;
+  top:90% !important;
+  background-size: 100px 100px;
+  background-repeat:  no-repeat;
+  background-image: url("../images/ape-regina.png");
+  position:fixed;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.bee_worker_dead {
+   width: 150px;
+   height:150px;
+   top:90% !important;
+   background-size: 100px 100px;
+   background-repeat:  no-repeat;
+   background-image: url("../images/worker.png");
+   position:fixed;
+   -webkit-transform: rotate(90deg);
+   -moz-transform: rotate(90deg);
+   -o-transform: rotate(90deg);
+   -ms-transform: rotate(90deg);
+   transform: rotate(90deg);
+ }
+
+.bee_drone_dead {
+  width: 150px;
+  height:150px;
+  top:90% !important;
+  background-size: 100px 100px;
+  background-repeat:  no-repeat;
+  background-image: url("../images/beeDrone.png");
+  position:fixed;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+div.beeWorker_1 {
+  width: 150px;
+  height:150px;
+  top:270px;
+  background-size: 100px 100px;
+  background-repeat:  no-repeat;
+  background-image: url("../images/worker.png");
+  position:fixed;
+}
+
+div.beeWorker_2 {
+  width: 150px;
+  height:150px;
+  top:270px;
+  background-size: 100px 100px;
+  background-repeat:  no-repeat;
+  background-image: url("../images/worker.png");
+  position:fixed;
+}
+
+div.beeWorker_3 {
+  width: 150px;
+  height:150px;
+  top:270px;
+  background-size: 100px 100px;
+  background-repeat:  no-repeat;
+  background-image: url("../images/worker.png");
+  position:fixed;
+}
+
+div.beeWorker_4 {
+  width: 150px;
+  height:150px;
+  top:270px;
+  background-size: 100px 100px;
+  background-repeat:  no-repeat;
+  background-image: url("../images/worker.png");
+  position:fixed;
+}
+
+div.beeWorker_5 {
+  width: 150px;
+  height:150px;
+  top:270px;
+  background-size: 100px 100px;
+  background-repeat:  no-repeat;
+  background-image: url("../images/worker.png");
+  position:fixed;
+}
+
+div.beeDrone_1{
+  width: 150px;
+  height:150px;
+  top:270px;
+  background-size: 100px 100px;
+  background-repeat:  no-repeat;
+  background-image: url("../images/beeDrone.png");
+  position:fixed;
+}
+
+
+div.beeDrone_2{
+  width: 150px;
+  height:150px;
+  top:270px;
+  background-size: 100px 100px;
+  background-repeat:  no-repeat;
+  background-image: url("../images/beeDrone.png");
+  position:fixed;
+}
+
+
+div.beeDrone_3{
+  width: 150px;
+  height:150px;
+  top:270px;
+  background-size: 100px 100px;
+  background-repeat:  no-repeat;
+  background-image: url("../images/beeDrone.png");
+  position:fixed;
+}
+
+
+div.beeDrone_4{
+  width: 150px;
+  height:150px;
+  top:270px;
+  background-size: 100px 100px;
+  background-repeat:  no-repeat;
+  background-image: url("../images/beeDrone.png");
+  position:fixed;
+}
+
+
+div.beeDrone_5{
+  width: 150px;
+  height:150px;
+  top:270px;
+  background-size: 100px 100px;
+  background-repeat:  no-repeat;
+  background-image: url("../images/beeDrone.png");
+  position:fixed;
+}
+
+
+div.beeDrone_6{
+  width: 150px;
+  height:150px;
+  top:270px;
+  background-size: 100px 100px;
+  background-repeat:  no-repeat;
+  background-image: url("../images/beeDrone.png");
+  position:fixed;
+}
+
+
+div.beeDrone_7{
+  width: 150px;
+  height:150px;
+  top:270px;
+  background-size: 100px 100px;
+  background-repeat:  no-repeat;
+  background-image: url("../images/beeDrone.png");
+  position:fixed;
+}
+
+
+div.beeDrone_8{
+  width: 150px;
+  height:150px;
+  top:270px;
+  background-size: 100px 100px;
+  background-repeat:  no-repeat;
+  background-image: url("../images/beeDrone.png");
+  position:fixed;
+}
+
+
+
+.beehive{
+  width: 250px;
+  height:250px;
+  background-size: 200px 200px;
+  background-repeat:  no-repeat;
+  background-image: url("../images/beehive.jpg");
+  position:fixed;
+}
