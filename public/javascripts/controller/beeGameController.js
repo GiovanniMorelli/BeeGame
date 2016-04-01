@@ -27,7 +27,7 @@ bee.controller('beeGameController', function ($scope, $timeout, $mdSidenav, $log
     $scope.beeHit= function(obj){
 
         if(obj.match("^queen")){
-            $scope[obj] = $scope[obj]-100;
+            $scope[obj] = $scope[obj]-8;
             if($scope[obj] <=0){
                 $scope[obj] = 0;
                 //stop timer
@@ -37,7 +37,7 @@ bee.controller('beeGameController', function ($scope, $timeout, $mdSidenav, $log
             }
         }
         if(obj.match("^beeWorker_")){
-            $scope[obj] = $scope[obj]-100;
+            $scope[obj] = $scope[obj]-10;
             if($scope[obj] <=0){
                 $scope[obj]=0;
                 //kill all bee
@@ -45,7 +45,7 @@ bee.controller('beeGameController', function ($scope, $timeout, $mdSidenav, $log
             }
         }
         if(obj.match("^beeDrone_")){
-            $scope[obj] = $scope[obj]-120;
+            $scope[obj] = $scope[obj]-12;
             if($scope[obj] <=0){
                 $scope[obj]=0;
                 //kill all bee
@@ -63,6 +63,22 @@ bee.controller('beeGameController', function ($scope, $timeout, $mdSidenav, $log
         })
         $scope.resetGameButton=true;
         $scope.startGameButton=false;
+
+        $scope.queen = 100;
+        $scope.beeWorker_1 = 75;
+        $scope.beeWorker_2 = 75;
+        $scope.beeWorker_3 = 75;
+        $scope.beeWorker_4 = 75;
+        $scope.beeWorker_5 = 75;
+        $scope.beeDrone_1 = 50;
+        $scope.beeDrone_2 = 50;
+        $scope.beeDrone_3 = 50;
+        $scope.beeDrone_4 = 50;
+        $scope.beeDrone_5 = 50;
+        $scope.beeDrone_6 = 50;
+        $scope.beeDrone_7 = 50;
+        $scope.beeDrone_8 = 50;
+
     }
 
 });
