@@ -46,6 +46,12 @@ The application must run through a browser
 
 ### Example
 
-* ![Alt text](/public/video/BeeGame.mp4?raw=true "BeeGame")
+* ![Alt text](/public/images/test_screen/startGame.png?raw=true "Start Game")
+
+* ![Alt text](/public/images/test_screen/startGameRun.png?raw=true "Start Game Run")
+
+* ![Alt text](/public/images/test_screen/startGameBeeDead.png?raw=true "Bee Dead")
+
+* ![Alt text](/public/images/test_screen/startGameQueenBeeDead.png?raw=true "Quenn Bee Dead")
 
 
