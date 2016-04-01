@@ -25,3 +25,31 @@ To play, there must be a button that enables a user to “hit” a random bee. T
 
 ### Constraints:
 The application must run through a browser
+
+### Prerequisites
+
+* Node.js
+
+### Languages
+
+* AngularJs 1.5
+* Angular Material
+* Node.js
+* Grunt
+* Jquery
+* Jade
+* Express
+
+### Run Application
+
+* http://yourhost/#/homePageBee
+
+### Example
+
+* ![Alt text](/public/images/test_screen/startGame.png?raw=true "Test 1")
+
+* ![Alt text](/public/images/test_screen/startGameRun.png?raw=true "Test 2")
+
+* ![Alt text](/public/images/test_screen/startGameBeeDead.png?raw=true "Validation 1")
+
+* ![Alt text](/public/images/test_screen/startGameQueenBeeDead.png?raw=true "Validation 2")
