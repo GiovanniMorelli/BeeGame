@@ -36,6 +36,8 @@ The application must run through a browser
 * Angular Material
 * Node.js
 * Grunt
+* Karma
+* Jasmine
 * Jquery
 * Jade
 * Express
@@ -43,6 +45,11 @@ The application must run through a browser
 ### Run Application
 
 * http://yourhost/#/homePageBee
+ 
+### Test Execution
+
+* ![Alt text](/public/images/test_karma_jasmine.png?raw=true "Start Game")
+
 
 ### Example
 
