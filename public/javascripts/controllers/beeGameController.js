@@ -1,4 +1,4 @@
-bee.controller('beeGameController', function ($scope, $timeout, $mdSidenav, $log,$location) {
+beeApp.controller('beeGameController',function beeGameController($scope) {
     $scope.resetGameButton=true;
     $scope.startGameButton=false;
 
@@ -30,6 +30,19 @@ bee.controller('beeGameController', function ($scope, $timeout, $mdSidenav, $log
             $scope[obj] = $scope[obj]-8;
             if($scope[obj] <=0){
                 $scope[obj] = 0;
+                $scope.beeWorker_1 = 0;
+                $scope.beeWorker_2 = 0;
+                $scope.beeWorker_3 = 0;
+                $scope.beeWorker_4 = 0;
+                $scope.beeWorker_5 = 0;
+                $scope.beeDrone_1 = 0;
+                $scope.beeDrone_2 = 0;
+                $scope.beeDrone_3 = 0;
+                $scope.beeDrone_4 = 0;
+                $scope.beeDrone_5 = 0;
+                $scope.beeDrone_6 = 0;
+                $scope.beeDrone_7 = 0;
+                $scope.beeDrone_8 = 0;
                 //stop timer
                 clearInterval($scope.beeTime);
                 //kill all bee

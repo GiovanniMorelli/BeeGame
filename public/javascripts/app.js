@@ -1,9 +1,9 @@
-var bee = angular.module('bee',['ngRoute',
+var beeApp = angular.module('bee',['ngRoute',
     'ngMessages',
     'ngMaterial',
     'ngMdIcons']);
 
-bee.config(['$routeProvider',
+beeApp.config(['$routeProvider',
     function($routeProvider) {
         $routeProvider.
             when('/homePageBee', {
