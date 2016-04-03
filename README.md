@@ -48,7 +48,7 @@ The application must run through a browser
  
 ### Test Execution
 
-* ![Alt text](/public/images/test_karma_jasmine.png?raw=true "Start Game")
+* ![Alt text](/public/images/test_screen/test_karma_jasmine.png?raw=true "Start Game")
 
 
 ### Example
